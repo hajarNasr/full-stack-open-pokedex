@@ -5,7 +5,7 @@ on:
       - master
 jobs:
   check_lint_job: 
-  runs-on: ubuntu-18.04
+    runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2 # this checkouts out the code of the repo 
       - uses: actions/setup-node@v1  
