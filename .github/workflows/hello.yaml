@@ -10,17 +10,9 @@ jobs:
       - name: say hello
         run: |
           echo "hello world"
-
-  date_now:
-    runs-on: ubuntu-18.04
-    steps:
       - name: now it is
         run: |
-          echo date
-
-  display_content:
-    runs-on: ubuntu-18.04
-    steps:
+          date
       - name: repo contains
         run: |
-          echo ls
+          ls
