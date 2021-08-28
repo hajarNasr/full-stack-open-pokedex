@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2 # this checkouts out the code of the repo 
       - uses: actions/setup-node@v1  
-         width:
+         with:
            node-version: 12.x  
       - name: install dependencies
         run: npm install
