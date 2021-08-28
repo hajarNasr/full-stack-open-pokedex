@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - master
-Jobs:
+jobs:
   hello_world_job:
     runs-on: ubuntu-18.04
     steps:
